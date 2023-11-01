@@ -52,6 +52,7 @@ body{
    padding-right: 200px;
    padding-bottom: 100px;
    justify-content: space-between;
+   gap: 16px;
    
 }
 
@@ -82,7 +83,8 @@ body{
    align-self: flex-start;
    width: 100px;
    height: 30px;
-   text-align: center;
+   justify-content: center;
+   align-items: center;
    border: 0;
    
 }
@@ -166,4 +168,71 @@ body{
 
 .section-4{
    background-color: white;
+   
+   display: flex;
+   justify-content: center;
 }
+
+.section-4 .quote{
+   display: flex;
+   border-radius: 15px;
+   color: white;
+   background-color: #3882F6;
+   margin: 80px;
+   width: 60%;
+   height: 120px;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.section-4 .quote .text{
+   display: flex;
+   flex-direction: column;
+}
+
+.section-4 .quote .text .title{
+   font-size: 23px;
+   font-weight: bold;
+   color: white;
+}
+
+.section-4 .quote .text .content{
+   font-size: 18px;
+}
+
+.section-4 .quote .text .button{
+   padding-bottom: 0;
+}
+
+.section-4 .quote .text .button ul{
+   display: flex;
+   margin: 0;
+   padding: 0; 
+   list-style-type: none;
+}
+
+.section-4 .quote .text .button a{
+   display: flex;
+   height: 42px;
+   width: 150px;
+   border-radius: 14px;
+   color: white;
+   border: 2px solid white;
+   align-items: center;
+   justify-content: center;
+   font-size: 18px;
+   font-weight: bold;
+   text-decoration: none;
+   transition: all 0.5s ease;
+}
+
+.footer{
+   display: flex;
+   background-color: #2d3c50;
+   justify-content: center;
+   align-items: center;
+   height: 50px;
+   margin: 0;
+   padding: 0;
+}
+
